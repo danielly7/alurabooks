@@ -33,3 +33,16 @@
     background-position: 1em;
     background-repeat: no-repeat;
 }
+
+@media screen and(main-width:1024px){
+    .banner__titulo{
+        font-size: 36px;
+    }
+    .banner__pesquisa{
+        width: 50%;
+    }
+    .banner__esquisa::placeholder{
+        background-position: 7em;
+    }
+    
+}
